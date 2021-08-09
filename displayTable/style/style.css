@@ -10,6 +10,18 @@ ul {
   list-style: none;
 }
 
+.dispTbl {
+  display: table;
+}
+
+.dispTblRow {
+  display: table-row;
+}
+
+.dispTblCell {
+  display: table-cell;
+}
+
 a {
   color: #111;
   font-size: 15px;
@@ -54,8 +66,23 @@ header#header {
 }
 
 nav#gnb {
+  width: 150px;
   padding: 16px;
+  vertical-align: top;
+  /* display: table 레이아웃에서 아래쪽 세로 정렬이
+    적용될 수 있기 때문
+  */
   background-color: #a9b59f;
+}
+
+/* dispaly table 레이아웃을 적용하면
+    2열 또는 3열에서 특정 영역의 내용이 세로 정렬에서
+    bottom 정렬로 적용될때가 있음. 이때 vertical-allgn:top을
+    적용하여 세로정렬에서 top정렬을 적용함.
+*/
+
+div#contents {
+  vertical-align: top;
 }
 
 div#contents h2 {

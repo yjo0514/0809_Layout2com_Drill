@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Display: table 2열 레이아웃</title>
 
     <link rel="stylesheet" href="style/style.css">
 
@@ -22,9 +22,12 @@
 
         </header>
 
-        <main id="main">
+        <main id="main" class="dispTbl">
+            <!-- display:table -->
 
-            <nav id="gnb">
+            <div class="dispTblRow">
+
+            <nav id="gnb" class="dispTblCell">
 
                 <ul id="mainMenu">
                     <li class="mainLi"><a href="#">그림의 작가</a></li>
@@ -37,7 +40,7 @@
 
             </nav>
 
-            <div id="contents">
+            <div id="contents" class="dispTblCell">
                 
 
                     <article>
@@ -75,6 +78,8 @@
             </div>
             <!-- div#contents -->
 
+        </div>
+        <!-- div.dispTblRow -->
 
         </main>
 
