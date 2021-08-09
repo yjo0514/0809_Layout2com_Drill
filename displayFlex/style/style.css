@@ -54,21 +54,8 @@ header#header {
 }
 
 nav#gnb {
-  width: 140px;
-  height: 450px;
   padding: 16px;
   background-color: #a9b59f;
-
-  float: left;
-}
-
-#gnb li {
-  line-height: 26px;
-}
-
-div#contents {
-  width: 458px;
-  float: right;
 }
 
 div#contents h2 {
@@ -91,6 +78,4 @@ footer#footer {
   padding: 10px;
 
   background-color: #7f9274;
-
-  clear: both;
 }
