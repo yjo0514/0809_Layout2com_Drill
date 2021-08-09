@@ -53,9 +53,18 @@ header#header {
   font-size: 54px;
 }
 
+main#main {
+  display: flex;
+}
+
 nav#gnb {
+  width: 150px;
   padding: 16px;
   background-color: #a9b59f;
+}
+
+div#contents {
+  flex: 1;
 }
 
 div#contents h2 {
