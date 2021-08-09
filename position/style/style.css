@@ -53,10 +53,34 @@ header#header {
   font-size: 54px;
 }
 
+main#main {
+  position: relative;
+}
+
 nav#gnb {
+  width: 140px;
+  height: 317px;
   padding: 16px;
   background-color: #a9b59f;
+
+  position: absolute;
+  top: 0;
+  left: 0;
 }
+
+div#contents {
+  margin-left: 130px;
+}
+
+/* 적용 1 */
+/* 
+div#contetns {
+  position: absolute;
+  right: 0;
+  top: 0;
+} */
+
+/* 적용 2 */
 
 div#contents h2 {
   color: #bfb42f;
